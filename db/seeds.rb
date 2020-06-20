@@ -30,7 +30,7 @@ team_name.each do |name|
 end
  
 team_collection.each do |team|
-  t_size = (SecureRandom.random_number(5) + 1).floor
+  t_size = (SecureRandom.random_number(4) + 1).floor
  
   (1..t_size).each do |t|
     name = Faker::Name.first_name
